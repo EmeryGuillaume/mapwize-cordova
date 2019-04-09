@@ -73,7 +73,8 @@ export class HomePage {
           
           DidLoad: function(arg) {
             console.log("The cordova result(DidLoad): " + JSON.stringify(arg));
-            dis.selectPlaceListClicked();   // Wrong
+            // dis.selectPlaceListClicked();   // Wrong
+            dis.selectPlaceClicked();   // Wrong
           },
           DidTapOnFollowWithoutLocation: function(arg) {
             console.log("The cordova result(DidTapOnFollowWithoutLocation): " + JSON.stringify(arg));
